@@ -1,0 +1,151 @@
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    background-color:#141b23;
+    color: #cfcfcf;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.menu {
+    float: left;
+}
+
+.menu__links {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ffff78;
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    color: #ffff78;
+}
+
+.logo {
+    float: right;
+}
+
+.introduction {
+    margin-top: 40px;
+}
+
+.introduction__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction__text {
+    margin: 0;
+    padding-top: 50px;
+    border-top: 3px solid #f4f574;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about {
+    margin-top: 60px;
+}
+
+.about__headline {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #ffff78;
+}
+
+.ios {
+    float: left;
+}
+
+.ios:not(:last-child) {
+    margin-right: 15px;
+}
+
+.description {
+    margin-top: 50px;
+    list-style-image: url(../images/bullet.png);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.description__listitem:not(:first-child) {
+    margin-top: 25px;
+}
+
+.slider {
+    margin-top: 70px;
+}
+
+.slider__headline {
+    margin-top: 0;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffff78;
+    text-align: center;
+}
+
+.slider__wrapper {
+    position: relative;
+    width: 900px;
+    height: 230px;
+    background-color: #8e9195;
+}
+
+.button {
+    border-style: none;
+    background: none;
+    cursor: pointer;
+}
+
+.leftbutton {
+    position: absolute;
+    top: 90px;
+    left: 25px;
+}
+
+.rightbutton {
+    position: absolute;
+    top: 90px;
+    right: 25px;
+}
+
+.footer {
+    padding-top: 190px;
+    padding-bottom: 60px;
+    color: #ffff78;
+}
+
+.copyright {
+    float: right;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
